@@ -1,0 +1,350 @@
+/* Top Bar Edit */
+
+i {
+    font-size: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.top_bar {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+}
+
+
+.top-bar>ul>li {
+    display: inline-block;
+    color: #666;
+    cursor: pointer;
+    margin-right: 20px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+/* Navbar Edit Here */
+
+.ant-btn {
+    position: relative;
+    padding: 4px 15px;
+    border: 1px solid #d9d9d9;
+    height: 32px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+    text-align: center;
+}
+
+.nav-link {
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 10%);
+    height: auto;
+    z-index: 1000 !important;
+}
+
+/* Section 1 Edit Here */
+
+.slide_btn {
+    color: #424242;
+    background-color: #fff;
+    padding: 15px 40px;
+    border: 1px solid #424242;
+}
+
+
+/* Donation Section Edit Here */
+
+.donation-box {
+    padding: 30px;
+    background-color: rgba(182, 239, 73, .3);
+    width: 100%;
+    border-radius: 10px
+}
+
+.donation-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+.edit-btn {
+    background-color: #8dc63f;
+    padding: 16px 32px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hover:hover {
+    transform: scale(1.3);
+}
+
+
+/* Carousel Starts Here */
+
+.caraousel-main {
+    box-shadow: 0 1px 4px rgb(0 0 0 / 16%);
+    padding: 1px;
+}
+
+/* Service box Starts Here */
+
+.edit-transform:hover {
+    transform: scale(1.04);
+
+}
+
+
+.service-box {
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgba(182, 239, 73, .3);
+    text-align: center;
+    border-radius: 10px;
+    color: #424242;
+    cursor: default;
+}
+
+.service-text {
+    margin-top: 10px;
+}
+
+.heading-5 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* Fund box Edit here */
+
+.fund-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.box:hover {
+    transform: scale(1.04) translateZ(0px);
+    cursor: pointer;
+}
+
+
+/* Donate Food Edit Here */
+
+.picture-box {
+    width: 100%;
+}
+
+.text-box {
+    align-items: center;
+    background-color: #8dc63f !important;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top-left-radius: 60px;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    padding: 65px;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+
+.heading-english {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1.25;
+}
+
+.transparent-box-1 {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    border-bottom: 1px solid white;
+    top: 0;
+    right: 0;
+    border-top-left-radius: 100px;
+}
+
+.transparent-box-2 {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    bottom: 0;
+    border: 1px solid white;
+}
+
+.english-heading-2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.35;
+    margin-bottom: 0.5em;
+}
+
+.project1 {
+    margin-bottom: 20px;
+}
+
+.icon {
+    background-color: #eee;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+
+.heading-5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0d6db7;
+    width: 100%;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Service Counter Edit Here  */
+
+.service-counter {
+    background-color: #0d6db7;
+    padding: 100px 0;
+    position: relative;
+}
+
+.service-counter::before {
+    background-image: url(./img/bg1.png);
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: .2;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    display: block;
+    background-size: cover;
+}
+
+
+
+.counter-img img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.counter-img {
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    background: #fff;
+    margin-bottom: 20px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+/* test row starts here  */
+
+.test-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* News Starts Here  */
+
+.news-box{
+    background-color: #eee;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.news-img img {
+
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.news-content{
+    padding: 20px;
+}
+
+/* saylani Guide Starts Here  */
+
+.saylani-guide{
+    margin: 50px 0;
+    background-image: url(./img/guide.png);
+    background-color: #0d6db7;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: top;
+
+}
+
+.input input{
+    position: relative;
+    background-color: initial;
+    width: 100%;
+    border: 2px solid #fff;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    border-color: #fff;
+    margin-bottom: 10px;
+}
+
+.guide_btn{
+    font-size: 14px;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #424242;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: 700;
+}
